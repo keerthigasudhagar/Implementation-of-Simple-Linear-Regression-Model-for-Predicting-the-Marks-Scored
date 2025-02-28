@@ -66,6 +66,7 @@ plt.title("Hours vs Scores(Training set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
+
 #Graph plot for test data
 plt.scatter(x_test,y_test,color='black')
 plt.plot(x_train,regressor.predict(x_train),color='red')
@@ -84,19 +85,23 @@ print("RMSE= ",rmse)
 
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
-#Displaying the content in datafield
-##head:
+
+Displaying the content in datafield
+
+head:
 
 ![417421853-26da9207-078b-47e1-a65a-5567b58961ec](https://github.com/user-attachments/assets/89a804d4-5193-4d43-96b7-f726a0c3bb01)
 
-##tail:
+tail:
+
 ![417422158-e9c2e062-83ea-4b85-bce9-59169a8f92fb](https://github.com/user-attachments/assets/bb853c44-3789-4215-a733-f02680a92506)
 
-##Segregating data to variables:
+Segregating data to variables:
 ![417422369-42c9efdb-a110-4f02-afa2-c166d35c5329](https://github.com/user-attachments/assets/d623aafc-2620-4f09-abcd-071da491c323)
+
 ![417422608-5b8ca5a5-f11b-4b94-98cb-2584234dcf94](https://github.com/user-attachments/assets/64d7043b-744b-4dcd-ba1d-30498b7a29f8)
 
-##Displaying predicted values:
+Displaying predicted values:
 ![417422961-95038c76-689d-4e86-94d4-06c7b706f0ea](https://github.com/user-attachments/assets/fd622d74-cd9d-468d-a320-13cb36846a4e)
 
 ##Displaying actual values:
